@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/Statics/img/logo.bmp">
 <title>登录</title>
 <%@ include file="/WEB-INF/views/common/headerLogin.jsp"%>
 <%@ include file="/WEB-INF/views/common/jquery-validation-css.jsp"%>

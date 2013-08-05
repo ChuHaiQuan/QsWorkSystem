@@ -13,6 +13,7 @@
     <link href="/Statics/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Statics/css/self.css" rel="stylesheet">
     <link href="/Statics/css/temp.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/Statics/img/logo.bmp">
 	<%@ include file="/WEB-INF/views/common/pageStyle.jsp"%>
     <style type="text/css">
     a{cursor: pointer;}

@@ -14,7 +14,7 @@
    <link href="/Statics/css/bootstrap.min.css" rel="stylesheet"></link>
    <link href="/Statics/css/self.css" rel="stylesheet"></link>
    <link href="/Statics/css/temp.css" rel="stylesheet"></link>
-
+	<link rel="shortcut icon" href="/Statics/img/logo.bmp">
    <style type="text/css">
      body{padding-top: 60px;background-color: white;}
    </style>
