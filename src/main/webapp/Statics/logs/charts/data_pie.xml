@@ -1,0 +1,12 @@
+<chart formatNumberScale='0'>
+
+    <set label='Fedex' value='132221' />
+
+    <set label='UPS' value='43221' />
+
+    <set label='DHL' value='73897' />
+
+    <set label='TNT' value='12321' />
+
+
+</chart>

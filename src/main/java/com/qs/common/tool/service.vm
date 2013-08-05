@@ -1,0 +1,19 @@
+/*
+ * Copyright 2011-2020 www.tradeserving.com
+ *
+ * All right reserved.
+ */
+package $PojoServicePackage;
+
+import com.qs.gx.core.base.service.IBaseDAOService;
+import $PojoClasspath;	
+
+/**
+ * $Pojo Service Interface.
+ * @author $Author
+ * @since $Date
+ */
+public interface $IPojoService extends
+		IBaseDAOService<$Pojo, Long> {
+
+}

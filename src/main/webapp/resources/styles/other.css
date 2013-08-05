@@ -1,0 +1,246 @@
+/* top message start */
+#msgcount {color: #FFFFFF;}
+#layer_msg { border-radius: 2px 2px 2px 2px; background-color: #FF7D0B; cursor: default; float: left; font-size: 11px; font-weight: 700; height: 18px; line-height: 16px; min-width: 16px; padding: 0 3px; position: relative;
+    text-align: center; text-decoration: none;}
+.msglabel {float: left; height: 23px; margin: 0 1px; padding: 6px 7px 0;}
+.msglayer {-moz-transition-delay: 0s; -moz-transition-duration: 0.5s; -moz-transition-property: opacity, visibility; -moz-transition-timing-function: ease;
+    display: block; opacity: 1; visibility: visible; box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);margin-left: -127px; width: 219px; background-color: #FFFFFF;
+    line-height: 1.5; margin-top: 28px; position: absolute; z-index: 997; display: none;border-bottom: thin solid;
+    border-left: thin solid; border-right: thin solid;}
+	.msglayer .msglist {display: block; padding: 0 0 11px; position: relative;}
+	
+.msglist h2 {border-bottom: 1px solid #E6E6E6; color: #666666; line-height: 32px; padding-left: 19px;}
+.msglist h2 span {margin-left: 6px;}
+.msglist h2 strong {color: #FF8F00;}
+.msglist ul {overflow: hidden; padding-top: 3px;}
+.msglist li {padding-top: 1px;}
+.msglist li a {display: block; height: 27px; line-height: 27px; overflow: hidden;padding: 0 19px; text-decoration: none; color: #0078B6;}
+.msglist li a:hover {background-color: #F4F4F4;}
+	.msglist .msgmore {position: absolute; right: 15px; top: 7px; color: #51A5C3;}
+
+#msg_retry {color: #FF7D0B;}
+.loading_error, .ico_loading {padding: 13px 24px; display: none;}
+/* top message end */
+
+/* basic css start */
+.login_cont .leftUnline {float:left; width:710px; min-height:380px; _height:380px; margin:20px 0; padding:30px 0; background:url("") repeat-y right;}
+/* basic css end */
+
+/* tabs of dialog start */
+#tabnav, .tabnav{
+    padding-bottom:3px;
+}
+#tabnav ul, .tabnav ul {
+    padding:15px 15px 5px 15px;
+    margin:5px 0px 5px 0px;
+    list-style:none;
+    border-bottom:1px solid #999;
+}
+#tabnav ul li, .tabnav ul li {
+    display:inline;
+    margin-left:5px;
+    margin-right:5px;
+}
+#tabnav ul li a, .tabnav ul li a {
+    background:#99CFEA;
+    color:#fff;
+    padding:5px 10px 5px 10px;
+    border:1px solid #999;
+}
+#tabnav ul li a:hover, .tabnav ul li a:hover {
+    background:#fff;
+    color:#FF7D0B;
+}
+#tabnav ul li a.here, .tabnav ul li a.here {
+    background:#fff;
+    color:#FF7D0B;
+    padding:5px 10px 5px 10px;
+    border-top:1px solid #999;
+    border-left:1px solid #999;
+    border-right:1px solid #999;
+    border-bottom:1px solid #d5d5d5;
+}
+/* tabs of dialog end */
+
+/* diclocation css start */
+#sech_layb, #sech_layb_b, #sech_layb_mul, #sech_carrierb_mul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 6px 1px 1px;
+    width: 800px;
+    border-bottom: none transparent;
+}
+#sech_layb ol, #sech_layb_b ol, #sech_layb_mul ol, #sech_carrierb_mul ol {
+    height: auto;
+    line-height: 180%;
+    min-height: 150px;
+}
+#sech_layb ol li, #sech_layb_mul ol li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3px;
+    white-space: nowrap;
+    width: 140px;
+}
+#sech_carrierb_mul ol li {
+	float: left;
+    height: 26px;
+    line-height: 25px;
+    padding-left: 3px;
+    white-space: nowrap;
+    width: 157px;
+}
+#sech_layb_b ol li {
+	float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3px;
+    white-space: nowrap;
+    width: 240px;
+}
+#sech_layb ol li:hover, #sech_layb ol li a:hover {
+    background: none repeat scroll 0 0 #F2EFF6;
+}
+#sech_layb_b ol li:hover, #sech_layb_b ol li a:hover {
+    background: none repeat scroll 0 0 #F2EFF6;
+}
+#sech_layb_mul ol li:hover, #sech_layb_mul ol li a:hover {
+    background: none repeat scroll 0 0 #F2EFF6;
+}
+#sech_carrierb_mul ol li:hover, #sech_carrierb_mul ol li a:hover {
+    background: none repeat scroll 0 0 #F2EFF6;
+}
+
+#sech_layt, #sech_layt_mul, #sech_carrier_mul {
+    margin: 0 1px;
+    position: relative;
+}
+#sech_layt ul, #sech_layt_mul ul, #sech_carrier_mul ul {
+	padding: 0px;
+	min-height: 25px;
+}
+#sech_layt ul li, #sech_layt_mul ul li, #sech_carrier_mul ul li {
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+    text-indent: 5px;
+    white-space: nowrap;
+}
+#sech_layt ul li a, #sech_layt_mul ul li a, #sech_carrier_mul ul li a {
+    background: url("/resources/images/lay_ico.gif") no-repeat scroll right -40px transparent;
+    margin-left: 10px;
+    margin-top: 2px;
+    border: none;
+}
+#sech_layt ul li a:hover, #sech_layt_mul ul li a:hover, #sech_carrier_mul ul li a:hover {
+    background: url("/resources/images/lay_ico.gif") no-repeat scroll right -72px transparent;
+}
+/* diclocation css end */
+
+/* 搜索下拉框  start */
+.search_div {
+	-moz-transition-delay: 0s;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-property: opacity, visibility;
+    -moz-transition-timing-function: ease;
+    background-color: #FFFFFF;
+    border-bottom: thin solid #CCCCCC;
+    border-left: thin solid #CCCCCC;
+    border-right: thin solid #CCCCCC;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+    left: 240px;
+    position: absolute;
+    top: 39px;
+    width: 282px;
+    z-index: 10000;
+}
+.search_div ol {
+	height: auto;
+}
+.search_div ol li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3px;
+    white-space: nowrap;
+    width: 279px;
+}
+.search_div ol li:hover, .search_div ol li a:hover {
+    background: none repeat scroll 0 0 #F2EFF6;
+}
+.ipt_box_rz {
+	position: relative;
+}
+/* 搜索下拉框  end */
+
+/* 口岸搜索 */
+.sech_dic_mul1 {
+    margin: 0 1px;
+    position: relative;
+}
+.sech_dic_mul1 ul {
+	padding: 0px;
+	min-height: 25px;
+}
+.sech_dic_mul1 ul li {
+	display: inline;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-indent: 5px;
+    white-space: nowrap;
+}
+.sech_dic_mul1 ul li a {
+    background: url("/resources/images/lay_ico.gif") no-repeat scroll right -40px transparent;
+    margin-top: 2px;
+    border: none;
+    padding:5px 10px 5px 10px;
+}
+.sech_dic_mul1 ul li a:hover {
+    background: url("/resources/images/lay_ico.gif") no-repeat scroll right -72px transparent;
+}
+
+.sech_dic_mul2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 6px 1px 1px;
+    border-bottom: none transparent;
+}
+.sech_dic_mul2 ol {
+    height: auto;
+    line-height: 180%;
+    min-height: 150px;
+}
+.sech_dic_mul2 ol li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3px;
+    white-space: nowrap;
+    width: 157px;
+}
+.sech_dic_mul2 ol li:hover, .sech_dic_mul2 ol li a:hover {
+    background: none repeat scroll 0 0 #F2EFF6;
+}
+.check_car {background: none repeat scroll 0 0 #F2EFF6;}
+
+/* 为IE设定的z-index */
+.z_9999 {z-index: 9999;}
+.z_100 {z-index: 100;}
+.z_50 {z-index: 50;}
+.z_30 {z-index: 30;}
+.z_20 {z-index: 20;}
+.z_10 {z-index: 10;}
+.z_5 {z-index: 5;}
+.z_1 {z-index: 1;}
+.z_01 {z-index: -1;}
+#iframe{position: absolute;width: 100%;height: 100%;z-index:-1;}
+
+
+.pos_rel {position: relative;}
+.pos_abs {position: absolute;}
+.action_up_down {background: none repeat scroll 0 0 #F2EFF6;}
+.pb_0 {padding-bottom: 0;}
+.mt_15 {margin-top: 15px;}
+
+

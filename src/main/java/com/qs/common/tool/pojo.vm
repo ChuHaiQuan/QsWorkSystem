@@ -1,0 +1,15 @@
+/*
+ * Copyright 2011-2020 www.tradeserving.com
+ *
+ * All right reserved.
+ */
+package $PojoPackage;
+
+import javax.persistence.Entity;
+import com.qs.gx.core.base.model.BaseEntity;
+
+
+@Entity
+public class $Pojo extends BaseEntity {
+
+}

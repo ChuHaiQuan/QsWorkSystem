@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body{padding-top: 30px;}
+      /*.b{border:1px solid #DDD;background:#EAEAEA}*/
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="span2 b">菜单</div>
+        <div class="span9 b">
+
+          <ul class="breadcrumb">
+            <li><a href="http://www.baidu.com" data-toggle="modal" data-target="#myModal">首页</a> <span class="divider">/</span></li>
+            <li><a href="#">用户中心</a> <span class="divider">/</span></li>
+            <li class="active">修改密码</li>
+          </ul>
+
+          <h2>马化腾：看好移动游戏 希望开发者关注垂直领域</h2>
+
+          <p>
+            <abbr title="腾讯公司董事局主席">马化腾</abbr>特别强调，希望开发者大家要更多关注和投入资源在移动游戏领域，他说，“我目前看到最先规模化盈利的可能在移动游戏方面”，他希望开发者关注移动游戏与PC游戏的不同，“大家要关注碎片化时间的使用习惯，以及异步操作，玩家之间并不是同一时间坐在电脑上，而是在手机上，在等电梯或者坐车的时候操作，还包括社交化的特点等等”。
+          </p>
+
+          <table class="table table-bordered table-hover">
+            <tr class="success">
+              <td>名称</td>
+              <td>最新</td>
+              <td>涨跌</td>
+            </tr>
+            <tr class="warning">
+              <td>沪铜1211</td>
+              <td>58570</td>
+              <td>-570.0</td>
+            </tr>
+            <tr class="info">
+              <td>沪铜1301</td>
+              <td>58460</td>
+              <td>-690.0</td>
+            </tr>
+            <tr class="error">
+              <td>沪铝1211</td>
+              <td>15405</td>
+              <td>-15.0</td>
+            </tr>
+          </table>
+
+          
+          <form class="form-search">
+            <div class="input-append">
+              <legend>请输入邮箱：</legend>
+              <span class="span3 uneditable-input">email...</span>
+              <button class="btn" type="submit"></button>
+            </div>
+          </form> 
+
+          <button type="button" class="btn" data-toggle="modal" data-target="#myModal">确定</button>
+          <button type="button" class="btn btn-primary" onclick="javascript:$('#myModal').modal('show','keyboard')">确定</button>
+          <button type="button" class="btn btn-info disabled">确定</button>
+          <button type="button" class="btn btn-warning">确定</button>
+          <button type="button" class="btn btn-danger">确定</button>
+          <button type="button" class="btn btn-success">确定</button>
+          <button type="button" class="btn btn-inverse">确定</button>
+          <button type="button" class="btn btn-link">确定</button>
+          <a href="" class="btn disabled btn-danger">确定</a>
+
+          <p></p>
+          
+          <div class="btn-group">
+            <a href="" class="btn"><i class="icon-search"></i> 搜索</a>
+            <a href="" class="btn dropdown-toggle" data-toogle="dropdown"><span class="caret"></span></a>
+          </div>
+          <p></p>
+          <div class="progress progress-striped active">
+            <div class="bar" style="width:60%"></div>
+          </div>
+
+          <p></p>
+          
+          <div class="alert alert-block">测试这是个神马玩意。。<button class="close" type="button" data-dismiss="alert">x</button></div>
+          
+          <p></p>
+
+          <div class="modal fade hide" id="myModal" data-keyboard="false" >
+            <div class="modal-header">
+              <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4>系统通知</h4>
+            </div>
+            <div class="modal-body">对不起，您当前使用的系统存在问题，请立即修正。<br>
+              ....</div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">确定</button>
+            </div>
+          </div>  
+        
+    </div>
+  
+    <script src="/js/jquery-1.8.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  
+
+  </body>
+</html>

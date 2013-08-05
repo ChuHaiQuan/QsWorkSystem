@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>My First chart using FusionWidgets</title>
+        <script type="text/javascript" src="Charts/FusionCharts.js">
+        </script>
+</head>
+<body>
+        <div id="chartContainer">FusionWidgets will load here!</div>
+        <script type="text/javascript"><!--
+                var myChart = new FusionCharts( "Charts/AngularGauge.swf", "myChartId", "400", "200", "0", "1" );
+                myChart.setXMLUrl("data2.xml");
+                myChart.render("chartContainer");
+        // -->
+        </script>
+        <div id="chartContainer1">FusionWidgets will load here!</div>
+        <script type="text/javascript"><!--
+                var myChart = new FusionCharts( "Charts/hled.swf", "myChartId", "400", "140", "0", "1" );
+                myChart.setXMLUrl("Data.xml");
+                myChart.render("chartContainer1");
+        // -->
+        </script>
+                <div id="chartContainer2">FusionWidgets will load here!</div>
+        <script type="text/javascript"><!--
+                var myChart = new FusionCharts( "Charts/vled.swf", "myChartId", "140", "400", "0", "1" );
+                myChart.setXMLUrl("Data.xml");
+                myChart.render("chartContainer2");
+        // -->
+        </script>
+</body> 
+</html>

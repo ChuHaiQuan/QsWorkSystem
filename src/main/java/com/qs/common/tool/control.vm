@@ -1,0 +1,28 @@
+/*
+ * Copyright 2011-2020 www.tradeserving.com
+ *
+ * All right reserved.
+ */
+package $PojoControlPackage;
+
+import $IPojoServiceClasspath;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import com.qs.gx.core.base.web.BaseController;
+import org.springframework.stereotype.Controller;
+
+
+
+/**
+ * $Pojo Controller.
+ * @author $Author
+ * @since $Date
+ */
+@RequestMapping(value = "/$pojo/*")
+@Controller
+public class $PojoController extends BaseController {
+
+	@Autowired
+	private $IPojoService $pojoService;
+
+}

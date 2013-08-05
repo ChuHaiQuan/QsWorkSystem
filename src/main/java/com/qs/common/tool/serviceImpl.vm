@@ -1,0 +1,35 @@
+/*
+ * Copyright 2011-2020 www.tradeserving.com
+ *
+ * All right reserved.
+ */
+package $PojoServicePackage;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import com.qs.gx.core.base.service.BaseDAOService;
+import $PojoClasspath;	
+import $IPojoDAOClasspath;	
+
+	
+/**
+ * User Service Implement class.
+ * @author $Author
+ * @since $Date
+ */	
+@Service
+@Transactional
+public class $PojoService extends BaseDAOService<$Pojo, Long> implements
+		$IPojoService{
+
+	private $IPojoDAO $pojoDAO;
+
+	@Autowired
+	public $PojoService(
+			$IPojoDAO $pojoDAO) {
+		super($pojoDAO);
+		this.$pojoDAO = $pojoDAO;
+	}
+	
+}
